@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -17,46 +18,246 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Start your project here-->
-    <div class="container">
-      <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="text-center">
-          <h2>Release surprise! </h2>
-          <p class="h4 fw-bold">50% OFF MDB PRO</p>
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <img src="https://mdbootstrap.com/img/Marketing/campaigns/50off-SJARV.png" class="img-fluid" alt="" />
+
+    <!-- Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                              <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-mdb-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <!-- Links -->
+                    <form class="form-inline">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- Collapsible content -->
             </div>
-          </div>
-  
-          <h5 class="mb-3">Use this coupon code before it expires and claim the reward</h5>
-          <p class="mb-3">The coupon code will be valid until the end of the week</p>
-  
-          <div class="mt-2">
-  
-            <!--Coupon code-->
-            <code class="h2 border rounded py-1 px-5 flex-item me-2">T9TTVSQB</code>
-            <br>
-  
-            <!--Copy to clipboard-->
-  
-            <a id="disc-50" href="#" type="button" class="btn-lg btn-info" style="background-color: #009FE7;">COPY TO
-              CLIPBOARD <i class="far fa-copy ml-2"></i></a>
-            <a class="btn btn-outline-primary btn-lg mt-3" href="https://mdbootstrap.com/docs/standard/getting-started/"
-              target="_blank" style="border-color: #009FE7; color: #009FE7;" role="button">Start MDB tutorial</a>
-  
-  
-          </div>
-          <p>See <a href="https://mdbootstrap.com/pro/">prices</a></p>
-          <div class=" my-2 alert alert-success" id="code-success" style="display: none;">
-            Copied
-          </div>
-  
+        </nav>
+        <!-- Navbar -->
+
+        <!--Mask-->
+        <div id="intro" class="view">
+            <div class="mask rgba-stylish-strong" style="background: linear-gradient(45deg,rgba(43, 42, 40, 0.7),rgba(199, 184, 116, 0.548) 100%);">
+
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-md-10">
+                            <!-- Heading -->
+                            <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Podróżowanie</h2>
+
+
+                            <!-- Divider -->
+                            <hr class="hr-light">
+
+
+                            <!-- Description -->
+                            <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntu r.</h4>
+                            <button type="button" class="btn btn-outline-white">Dowiedz się więcej<i class="fas fa-book ml-2"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
-      </div>
-    </div>
+        <!--/.Mask-->
+
+    </header>
+    <!-- /Main Navigation-->
+
+
+    <!-- Main Layout-->
+    <main class="mt-5">
+
+        <div class="container">
+            <!--Section: LastTravels-->
+            <section id="lastTravels" class="text-center">
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip1.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 1</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip2.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 2</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip3.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 3</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip4.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 4</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip5.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 5</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="view overlay z-depth-1-half">
+                            <img src="img/trip6.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask rgba-blue-light"></div>
+                            </a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">Podróż 6</h4>
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores n am, aperiam minima assumenda deleniti hic.
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: LastTravels-->
+
+
+            <hr class="my-5">
+
+
+            <!--Section: Gallery-->
+            <section id="gallery">
+
+            </section>
+            <!--Section: Gallery-->
+
+
+            <hr class="my-5">
+
+
+            <!--Section: Contact-->
+            <section id="contact">
+
+            </section>
+            <!--Section: Contact-->
+        </div>
+
+    </main>
+    <!-- /Main Layout-->
+
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+    <!-- /Footer -->
+
     <!-- End your project here-->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -67,25 +268,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
-    <script type="text/javascript">
-      var a = document.getElementById('disc-50');
-      a.onclick = function () {
-        Clipboard_CopyTo("T9TTVSQB");
-        var div = document.getElementById('code-success');
-        div.style.display = 'block';
-        setTimeout(function () {
-          document.getElementById('code-success').style.display = 'none';
-        }, 900);
-      };
+    <script type="text/javascript"></script>
+</body>
 
-      function Clipboard_CopyTo(value) {
-        var tempInput = document.createElement("input");
-        tempInput.value = value;
-        document.body.appendChild(tempInput);
-        tempInput.select();
-        document.execCommand("copy");
-        document.body.removeChild(tempInput);
-      }
-    </script>
-  </body>
 </html>
